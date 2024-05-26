@@ -2,58 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Drag Papers ❤️</title>
+  <title>HBD Ricky ❤️</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- A pen by Developer Rahul  -->
 <div class="paper heart"></div>
   
 <div class="paper image">
-  <p> and I fallen in</p>
-  <p>Love with You 😍 </p>
-  <img src="images/1.jpeg" />
+  <p>Once again, have a</p>
+  <p>fabulous birthday 🎂</p>
+  <img src="images/1.jpg" />
 </div>
 
 <div class="paper image">
-  <p></p>
-  <img src="images/2.jpeg" />
+  <p>May your birthday be</p>
+  <p>as awesome as you're 😍</p>
+  <img src="images/2.jpg" />
 </div>
 
 <div class="paper image">
-  <p>I hope all your </p>
-  <p> wishes come true ❤️ </p>
+  <p class="p1">I hope all your</p>
+  <p class="p1">dreams come true 🌟</p>
   <img src="images/Wishes.jpeg" />
 </div>
 
 <div class="paper red">
-  <p class="p1"> Here's to another year</p>
-  <p class="p2">of being incredible 😍</p>
+  <p class="p1">Many more happy</p>
+  <p class="p1">returns of the day 😍</p>
 </div>
 
 <div class="paper">
-  <p class="p1">Happy Birthday </p>
-  <p class="p1">Rikhitha <span style="color: red !important;">❤️</span></p>
+  <p class="p1">Happy Birthday</p>
+  <p class="p1">Rikhitha 🥳<span style="color: red !important;">❤️</span></p>
 </div>
 
 <div class="paper">
   <p class="p1">Drag the papers to move!</p>
 </div>
-<!-- partial -->
+
 <script>
-  // Function to dynamically load JavaScript file based on device type
   function loadScript(url) {
     var script = document.createElement('script');
     script.src = url;
     document.head.appendChild(script);
   }
 
-  // Detect whether the user is accessing from a mobile device
   var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   
-  // Load the appropriate JavaScript file based on device type
   if (isMobile) {
     loadScript('./mobile.js');
   } else {
